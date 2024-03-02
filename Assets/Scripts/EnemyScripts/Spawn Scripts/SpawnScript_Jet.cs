@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnScript_Jet : MonoBehaviour
+public class SpawnScript_Jet: MonoBehaviour
 {
     public GameObject[] lanes;
     //Spawn rate in seconds

@@ -15,7 +15,7 @@ public class HelicopterScript_Controller : MonoBehaviour
     {
         endPosition = GameObject.FindGameObjectWithTag("HelicopterEnter").transform;
     }
-    void Update()
+    void FixedUpdate()
     {
         Move();
     }
