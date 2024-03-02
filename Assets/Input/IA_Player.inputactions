@@ -1,0 +1,56 @@
+{
+    "name": "IA_Player",
+    "maps": [
+        {
+            "name": "Ladder",
+            "id": "1b219d89-04a1-490a-8925-0ce72643686e",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2b0d41e9-b4bd-41bb-9be3-a3870a22ed72",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Movement",
+                    "id": "7bd7c3f9-af2f-4fa3-8ec8-bc32641a0c9d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "1d4b6d0c-6140-4e39-bc7a-d66974fd4ffa",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "ecef6ea9-6ea3-4da0-b277-f0f1d67665ff",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
