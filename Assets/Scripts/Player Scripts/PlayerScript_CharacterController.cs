@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,7 @@ public class PlayerScript_CharacterController : MonoBehaviour
 
     public float upperLadderBound;
     public float lowerLadderBound;
+    public float xAxis = -8.5f;
 
     public IGun currentGun;
     public GameObject baseGun;
@@ -16,9 +18,14 @@ public class PlayerScript_CharacterController : MonoBehaviour
     public GameObject sniper;
 
 
+    [SerializeField] private int basePowerUpDropChance = 5;
+    public int powerUpDropChance;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        powerUpDropChance = basePowerUpDropChance;
         currentGun = this.GetComponentInChildren<IGun>();
         _input = GetComponent<PlayerScript_PlayerInput>();
     }
@@ -62,5 +69,10 @@ public class PlayerScript_CharacterController : MonoBehaviour
         baseGun.SetActive(true);
         currentGun = baseGun.GetComponent<IGun>();
         currentGun.StartTimer();
+    }
+
+    public void ResetDropRate()
+    {
+        powerUpDropChance = basePowerUpDropChance;
     }
 }
