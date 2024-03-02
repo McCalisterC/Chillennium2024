@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3431458272678962379}
   - component: {fileID: 3357774246840646053}
   m_Layer: 0
-  m_Name: BaseEnemy
+  m_Name: BossGrunts
   m_TagString: Destroyable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

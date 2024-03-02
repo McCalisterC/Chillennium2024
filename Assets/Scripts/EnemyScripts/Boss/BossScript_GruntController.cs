@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestEnemyScript_Controller : MonoBehaviour
+public class BossScript_GruntController : MonoBehaviour
 {
-    public float speedX = 1;
-    public float speedY = 1;
+    public float speed = 1;
+    public float upperBound;
+    public float lowerBound;
 
     public float deathForce = 2;
     private bool death = false;
     void Move()
     {
-        this.GetComponent<Transform>().transform.position -= new Vector3(speedX, speedY, 0);
+        this.GetComponent<Transform>().transform.position -= new Vector3(0, speed, 0);
         if (this.GetComponent<Transform>().transform.position.y < -6)
         {
             Destroy(this.gameObject);

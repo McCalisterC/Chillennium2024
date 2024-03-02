@@ -36,8 +36,16 @@ public class EnemyScripts_EnemyStats : MonoBehaviour
 
     public void Death()
     {
-        if(willDropPickup)
+        if (willDropPickup)
+        {
             Instantiate(drops[pickUpDropped], this.transform.position, Quaternion.identity);
-        Destroy(gameObject);
+            willDropPickup = false;
+        }
+        if(this.GetComponent<Animator>()  != null)
+            this.GetComponent<Animator>().SetTrigger("Die");
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

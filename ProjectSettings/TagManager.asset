@@ -8,6 +8,8 @@ TagManager:
   - HelicopterEnter
   - ArtilleryShootTransform
   - PlayerHead
+  - BossLand
+  - BossChopper
   layers:
   - Default
   - TransparentFX
