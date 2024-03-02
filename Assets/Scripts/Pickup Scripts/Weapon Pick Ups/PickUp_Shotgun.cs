@@ -18,6 +18,7 @@ public class PickUp_Shotgun : MonoBehaviour
             ps_cc.shotGun.SetActive(true);
             ps_cc.currentGun = ps_cc.shotGun.GetComponent<IGun>();
             ps_cc.currentGun.StartTimer();
+            Destroy(this.gameObject);
         }
     }
 
