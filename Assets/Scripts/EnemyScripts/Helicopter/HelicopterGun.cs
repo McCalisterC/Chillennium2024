@@ -20,6 +20,7 @@ public class HelicopterGun : MonoBehaviour
         bulletShot.GetComponent<ProjectileScript_RegularBullet>().shotByEnemy = true;
         //Add speed to bullet
         bulletShot.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(-speed, 0, 0);
+        this.GetComponent<Animator>().SetTrigger("Shoot");
         currentEngageAmount--;
 
         yield return new WaitForSeconds(1 / fireRate);

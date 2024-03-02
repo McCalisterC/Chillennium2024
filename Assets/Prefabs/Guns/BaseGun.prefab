@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 5834603186320298186}
   - component: {fileID: 7321507080457526345}
   m_Layer: 0
-  m_Name: TestGun
+  m_Name: BaseGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

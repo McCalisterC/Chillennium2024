@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 573269511615368643}
   - component: {fileID: 1327711539238359214}
   - component: {fileID: 3084850518304950284}
+  - component: {fileID: 2699053964872884103}
   m_Layer: 0
   m_Name: SniperEnemy
   m_TagString: Destroyable
@@ -292,6 +293,52 @@ MonoBehaviour:
   aimTime: 2
   bullet: {fileID: 3085861095662274113, guid: 491af1e5855fb1a4a9539ba8d6bea8af, type: 3}
   bulletSpawnObject: {fileID: 3398823522544613036}
+--- !u!61 &2699053964872884103
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3145255461508253405}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.00000010430813, y: -0.5603608}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.43690053, y: 1.0036147}
+  m_EdgeRadius: 0
 --- !u!1 &3398823522544613036
 GameObject:
   m_ObjectHideFlags: 0

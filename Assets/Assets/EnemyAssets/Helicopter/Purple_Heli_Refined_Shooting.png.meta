@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 5d767b3e0f1578144a86df14500341aa
+guid: 1a4e1b6baffafbd46880e971b968be4e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2116573616988799887
-    second: Purple_Heli_Blue_Flying_Sheet_0
+      213: -2434517225985001208
+    second: Purple_Heli_Refined_Shooting_0
   - first:
-      213: -5673005760349561372
-    second: Purple_Heli_Blue_Flying_Sheet_1
+      213: -708508661591151733
+    second: Purple_Heli_Refined_Shooting_1
   - first:
-      213: -7751323008291655219
-    second: Purple_Heli_Blue_Flying_Sheet_2
+      213: 6538733743218668003
+    second: Purple_Heli_Refined_Shooting_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Purple_Heli_Blue_Flying_Sheet_0
+      name: Purple_Heli_Refined_Shooting_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,14 +120,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ff5fb1ea79672242b0f3633f765a39f
-      internalID: -1167045413
+      spriteID: e24f22d5146a5e444a789bf78ccf796e
+      internalID: 380967563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_Heli_Blue_Flying_Sheet_1
+      name: Purple_Heli_Refined_Shooting_1
       rect:
         serializedVersion: 2
         x: 112
@@ -141,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a962014454a67894084357a501ae3521
-      internalID: -120217793
+      spriteID: 52d9212cc20e1bd4cb4150d3f2a6d979
+      internalID: 2120388990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_Heli_Blue_Flying_Sheet_2
+      name: Purple_Heli_Refined_Shooting_2
       rect:
         serializedVersion: 2
         x: 224
@@ -162,8 +162,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d568e354efd9149858dfefbe2337b8
-      internalID: 1724564328
+      spriteID: f5a07b05fa590524c87eb742ce5cd48c
+      internalID: 1926534572
       vertices: []
       indices: 
       edges: []
@@ -171,7 +171,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8b2cbbfbb25b90e40929199d480f516c
+    spriteID: 5c2fa45e56d188c49989de8b7be3a02f
     internalID: 0
     vertices: []
     indices: 
@@ -179,9 +179,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Purple_Heli_Blue_Flying_Sheet_0: -1167045413
-      Purple_Heli_Blue_Flying_Sheet_1: -120217793
-      Purple_Heli_Blue_Flying_Sheet_2: 1724564328
+      Purple_Heli_Refined_Shooting_0: 380967563
+      Purple_Heli_Refined_Shooting_1: 2120388990
+      Purple_Heli_Refined_Shooting_2: 1926534572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
