@@ -45,11 +45,11 @@ public class PlayerScript_CharacterController : MonoBehaviour
             MovePlayer();
             if (charTransform.localPosition.y > upperLadderBound)
             {
-                charTransform.localPosition = new Vector3(-6.74f, upperLadderBound, 0);
+                charTransform.localPosition = new Vector3(xAxis, upperLadderBound, 0);
             }
             else if(charTransform.localPosition.y < lowerLadderBound)
             {
-                charTransform.localPosition = new Vector3(-6.74f, lowerLadderBound, 0);
+                charTransform.localPosition = new Vector3(xAxis, lowerLadderBound, 0);
             }
         }
     }
