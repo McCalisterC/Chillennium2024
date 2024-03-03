@@ -24,8 +24,6 @@ public class SniperEnemy_Controller : MonoBehaviour
 
     private void FixedUpdate()
     {
-        targetSprite = GameObject.FindGameObjectWithTag("PlayerHead").transform;
-
         if (targetSprite)
         {
             Vector3 direction = targetSprite.position - sniperSprite.transform.position;

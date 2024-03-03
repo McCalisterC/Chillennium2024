@@ -37,7 +37,7 @@ public class EnemyScripts_EnemyStats : MonoBehaviour
 
     public void Death()
     {
-        GameObject.FindGameObjectWithTag("Score").GetComponent<MiscScript_ScoreManager>().killScore += 500;
+        GameObject.FindGameObjectWithTag("Score").GetComponent<MiscScript_ScoreManager>().killScore += 50;
         if (willDropPickup)
         {
             Instantiate(drops[pickUpDropped], this.transform.position, Quaternion.identity);

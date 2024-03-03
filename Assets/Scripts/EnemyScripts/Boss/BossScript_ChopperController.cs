@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
 public class BossScript_ChopperController : MonoBehaviour
@@ -20,6 +21,7 @@ public class BossScript_ChopperController : MonoBehaviour
     private bool spawned = false;
     public GameObject gruntObject;
     public GameObject[] spawnsToStop;
+    public Animator continueUI;
 
     void Start()
     {
@@ -115,7 +117,9 @@ public class BossScript_ChopperController : MonoBehaviour
 
             if (phase3SpawnAmount <= 0 && phase3CurrentActive == 0)
             {
-                //End the game
+                GameObject.FindGameObjectWithTag("Player").gameObject.tag = "Untagged";
+                GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<PlayerInput>().enabled = false;
+                StartCoroutine(ContinueUI());
                 Destroy(this.gameObject);
             }
 
@@ -182,4 +186,10 @@ public class BossScript_ChopperController : MonoBehaviour
             spawn.GetComponent<ISpawns>().StopCoroutine();
         }
     }
+    IEnumerator ContinueUI()
+    {
+        yield return new WaitForSeconds(2);
+        continueUI.SetTrigger("Enter");
+    }
+
 }
