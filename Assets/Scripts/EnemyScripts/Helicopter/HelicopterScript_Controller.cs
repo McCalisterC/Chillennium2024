@@ -89,4 +89,9 @@ public class HelicopterScript_Controller : MonoBehaviour
             }
         }
     }
+
+    public void DestroySelf()
+    {
+        Destroy(this.gameObject);
+    }
 }

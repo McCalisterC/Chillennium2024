@@ -48,7 +48,7 @@ public class EnemyScripts_EnemyStats : MonoBehaviour
         {
             this.gameObject.GetComponent<SniperEnemy_Controller>().DeathAnim();
         }
-        else if (this.GetComponent<Animator>() != null && this.GetComponent<HelicopterScript_Controller>() == null)
+        else if (this.GetComponent<Animator>() != null)
             this.GetComponent<Animator>().SetTrigger("Die");
         else
         {

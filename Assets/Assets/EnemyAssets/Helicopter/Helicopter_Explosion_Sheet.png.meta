@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: e556e6c4e411ec5469c5179ebbf3b4ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5141584122167351403
+    second: Helicopter_Explosion_Sheet_0
+  - first:
+      213: 1575747145427735297
+    second: Helicopter_Explosion_Sheet_1
+  - first:
+      213: -1238893484820812786
+    second: Helicopter_Explosion_Sheet_2
+  - first:
+      213: 1880648637019494680
+    second: Helicopter_Explosion_Sheet_3
+  - first:
+      213: 4435693168630674167
+    second: Helicopter_Explosion_Sheet_4
+  - first:
+      213: -184923426427748374
+    second: Helicopter_Explosion_Sheet_5
+  - first:
+      213: 4253644279346444886
+    second: Helicopter_Explosion_Sheet_6
+  - first:
+      213: 2912779006866370371
+    second: Helicopter_Explosion_Sheet_7
+  - first:
+      213: -1534890102844929376
+    second: Helicopter_Explosion_Sheet_8
+  - first:
+      213: -4459322161466441149
+    second: Helicopter_Explosion_Sheet_9
+  - first:
+      213: -8992175126087250394
+    second: Helicopter_Explosion_Sheet_10
+  - first:
+      213: -5475704081477549451
+    second: Helicopter_Explosion_Sheet_11
+  - first:
+      213: 682882432898460140
+    second: Helicopter_Explosion_Sheet_12
+  - first:
+      213: -4362233666050498584
+    second: Helicopter_Explosion_Sheet_13
+  - first:
+      213: 7096999694330920875
+    second: Helicopter_Explosion_Sheet_14
+  - first:
+      213: 3739391373308348698
+    second: Helicopter_Explosion_Sheet_15
+  - first:
+      213: 6471025262733736124
+    second: Helicopter_Explosion_Sheet_16
+  - first:
+      213: 1549744293958347596
+    second: Helicopter_Explosion_Sheet_17
+  - first:
+      213: -4641849315972485318
+    second: Helicopter_Explosion_Sheet_18
+  - first:
+      213: -2589327711029067867
+    second: Helicopter_Explosion_Sheet_19
+  - first:
+      213: -6523707711047261624
+    second: Helicopter_Explosion_Sheet_20
+  - first:
+      213: 1806839954267077475
+    second: Helicopter_Explosion_Sheet_21
+  - first:
+      213: 7169258699879240495
+    second: Helicopter_Explosion_Sheet_22
+  - first:
+      213: 4438995641088572521
+    second: Helicopter_Explosion_Sheet_23
+  - first:
+      213: -1916575643377953418
+    second: Helicopter_Explosion_Sheet_24
+  - first:
+      213: -3314818773282613342
+    second: Helicopter_Explosion_Sheet_25
+  - first:
+      213: 8830884826565519391
+    second: Helicopter_Explosion_Sheet_26
+  - first:
+      213: 584412688549967576
+    second: Helicopter_Explosion_Sheet_27
+  - first:
+      213: -1074702991908294357
+    second: Helicopter_Explosion_Sheet_28
+  - first:
+      213: 355802348242336614
+    second: Helicopter_Explosion_Sheet_29
+  - first:
+      213: -6765928077852013458
+    second: Helicopter_Explosion_Sheet_30
+  - first:
+      213: 2147314722484448181
+    second: Helicopter_Explosion_Sheet_31
+  - first:
+      213: -5994505860220808738
+    second: Helicopter_Explosion_Sheet_32
+  - first:
+      213: -2784607946720217751
+    second: Helicopter_Explosion_Sheet_33
+  - first:
+      213: 882435071075634777
+    second: Helicopter_Explosion_Sheet_34
+  - first:
+      213: 1899606937102353369
+    second: Helicopter_Explosion_Sheet_35
+  - first:
+      213: 399660115103682324
+    second: Helicopter_Explosion_Sheet_36
+  - first:
+      213: -2642534970811740361
+    second: Helicopter_Explosion_Sheet_37
+  - first:
+      213: 3002544334521759326
+    second: Helicopter_Explosion_Sheet_38
+  - first:
+      213: -5524770674088614284
+    second: Helicopter_Explosion_Sheet_39
+  - first:
+      213: -9202556741948901117
+    second: Helicopter_Explosion_Sheet_40
+  - first:
+      213: 3355969259481429047
+    second: Helicopter_Explosion_Sheet_41
+  - first:
+      213: 5155036936991440009
+    second: Helicopter_Explosion_Sheet_42
+  - first:
+      213: 4515254257071415330
+    second: Helicopter_Explosion_Sheet_43
+  - first:
+      213: -516267224980571497
+    second: Helicopter_Explosion_Sheet_44
+  - first:
+      213: 3767358801012076236
+    second: Helicopter_Explosion_Sheet_45
+  - first:
+      213: 3011684024562781644
+    second: Helicopter_Explosion_Sheet_46
+  - first:
+      213: 3768236220087717806
+    second: Helicopter_Explosion_Sheet_47
+  - first:
+      213: 5421233091569179529
+    second: Helicopter_Explosion_Sheet_48
+  - first:
+      213: -9028256646377790434
+    second: Helicopter_Explosion_Sheet_49
+  - first:
+      213: -8494747770717736876
+    second: Helicopter_Explosion_Sheet_50
+  - first:
+      213: 6136210970878021240
+    second: Helicopter_Explosion_Sheet_51
+  - first:
+      213: -2093083813514026673
+    second: Helicopter_Explosion_Sheet_52
+  - first:
+      213: 7265826198554348895
+    second: Helicopter_Explosion_Sheet_53
+  - first:
+      213: -316239011850236443
+    second: Helicopter_Explosion_Sheet_54
+  - first:
+      213: 2470417210300966156
+    second: Helicopter_Explosion_Sheet_55
+  - first:
+      213: 7842010664621511036
+    second: Helicopter_Explosion_Sheet_56
+  - first:
+      213: -4919116357100809061
+    second: Helicopter_Explosion_Sheet_57
+  - first:
+      213: -8335507423752568374
+    second: Helicopter_Explosion_Sheet_58
+  - first:
+      213: -566494678970120640
+    second: Helicopter_Explosion_Sheet_59
+  - first:
+      213: -8286114432816869600
+    second: Helicopter_Explosion_Sheet_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68d29094839a5740800000000000000
+      internalID: 5141584122167351403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1035e0b1ead2ed510800000000000000
+      internalID: 1575747145427735297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ca5b280f09ecee0800000000000000
+      internalID: -1238893484820812786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8199ed4a8f7691a10800000000000000
+      internalID: 1880648637019494680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2bbd08f6fbe8d30800000000000000
+      internalID: 4435693168630674167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef30299f150f6df0800000000000000
+      internalID: -184923426427748374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a315f6feaf70b30800000000000000
+      internalID: 4253644279346444886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f2c7df2154c6820800000000000000
+      internalID: 2912779006866370371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa4aaa6599f2bae0800000000000000
+      internalID: -1534890102844929376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34204c2ee1e4d12c0800000000000000
+      internalID: -4459322161466441149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e477b8d50653380800000000000000
+      internalID: -8992175126087250394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572cf5046246204b0800000000000000
+      internalID: -5475704081477549451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9644464f51a7900800000000000000
+      internalID: 682882432898460140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef5fc3c79b3673c0800000000000000
+      internalID: -4362233666050498584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helicopter_Explosion_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf76a7de9b9d7260800000000000000
+      internalID: 7096999694330920875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9423028b56e03ad4a8b5a1140fa1a7cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Helicopter_Explosion_Sheet_0: 5141584122167351403
+      Helicopter_Explosion_Sheet_1: 1575747145427735297
+      Helicopter_Explosion_Sheet_10: -8992175126087250394
+      Helicopter_Explosion_Sheet_11: -5475704081477549451
+      Helicopter_Explosion_Sheet_12: 682882432898460140
+      Helicopter_Explosion_Sheet_13: -4362233666050498584
+      Helicopter_Explosion_Sheet_14: 7096999694330920875
+      Helicopter_Explosion_Sheet_2: -1238893484820812786
+      Helicopter_Explosion_Sheet_3: 1880648637019494680
+      Helicopter_Explosion_Sheet_4: 4435693168630674167
+      Helicopter_Explosion_Sheet_5: -184923426427748374
+      Helicopter_Explosion_Sheet_6: 4253644279346444886
+      Helicopter_Explosion_Sheet_7: 2912779006866370371
+      Helicopter_Explosion_Sheet_8: -1534890102844929376
+      Helicopter_Explosion_Sheet_9: -4459322161466441149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

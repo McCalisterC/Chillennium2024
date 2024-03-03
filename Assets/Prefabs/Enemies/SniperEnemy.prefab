@@ -94,8 +94,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 3.8365831, y: 4.6114893}
-  m_Size: {x: 1.3253727, y: 1.3253727}
+  m_Offset: {x: 4.09951, y: 1.5264759}
+  m_Size: {x: 0.6592903, y: 1.1851449}
   m_Direction: 0
 --- !u!50 &3656578980145658889
 Rigidbody2D:
@@ -194,7 +194,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 3.8265831, y: -5.307515}
+  m_Offset: {x: 5.0389075, y: -6.911371}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -204,7 +204,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.4784083, y: 18.995436}
+  m_Size: {x: 2.718689, y: 15.787724}
   m_EdgeRadius: 0
 --- !u!1 &3139217211902173150
 GameObject:
@@ -235,8 +235,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5, y: -2.21, z: 0.1008099}
-  m_LocalScale: {x: 13, y: 13, z: 13}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 6.5, y: 6.5, z: 6.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 645549815032792981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -338,7 +338,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1744674126719944298, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_SortingOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3145255461508253405, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_Name
@@ -394,47 +394,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.15
+      value: 4.1198745
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.66
+      value: 1.5401254
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.1008099
+      value: 0.082835175
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99995136
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.0069783973
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.006978131
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: 6862472149005972987, guid: 970a557fc7e0adf49b3560987a5db134, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

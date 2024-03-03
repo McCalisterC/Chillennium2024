@@ -1,73 +1,46 @@
 fileFormatVersion: 2
-guid: 425b545ffbc25ed47840622bb28fb022
+guid: aea40bfe073cbcb4e91e89207777221d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1302586505245141928
-    second: Sniper_Top_Body_Sheet_0
+      213: 9085766962622039540
+    second: MenuHero_0
   - first:
-      213: -3348921287495436644
-    second: Sniper_Top_Body_Sheet_1
+      213: -3277961134877413180
+    second: MenuHero_1
   - first:
-      213: 8992131954943789326
-    second: Sniper_Top_Body_Sheet_2
+      213: 987643746392620596
+    second: MenuHero_2
   - first:
-      213: -2427625113404417074
-    second: Sniper_Top_Body_Sheet_3
+      213: 8742868695565091392
+    second: MenuHero_3
   - first:
-      213: -7561983352613031630
-    second: Sniper_Top_Body_Sheet_4
+      213: -5999952405646652576
+    second: MenuHero_4
   - first:
-      213: -5640703162219551875
-    second: Sniper_Top_Body_Sheet_5
+      213: 8272831691124764691
+    second: MenuHero_5
   - first:
-      213: -2054164676133523922
-    second: Sniper_Top_Body_Sheet_6
+      213: 2591071293441624810
+    second: MenuHero_6
   - first:
-      213: -4466192677686626488
-    second: Sniper_Top_Body_Sheet_7
+      213: 1272494706464575237
+    second: MenuHero_7
   - first:
-      213: -6664483465461012632
-    second: Sniper_Top_Body_Sheet_8
+      213: 5190412452724294785
+    second: MenuHero_8
   - first:
-      213: -1102519267531158121
-    second: Sniper_Top_Body_Sheet_9
+      213: 1057480446641295450
+    second: MenuHero_9
   - first:
-      213: -6643943931316505675
-    second: Sniper_Top_Body_Sheet_10
+      213: -894754265862539168
+    second: MenuHero_10
   - first:
-      213: 7231294306713833030
-    second: Sniper_Top_Body_Sheet_11
+      213: -7940992867848193893
+    second: MenuHero_11
   - first:
-      213: -8355584981976453698
-    second: Sniper_Top_Body_Sheet_12
-  - first:
-      213: -3401767614949969092
-    second: Sniper_Top_Body_Sheet_13
-  - first:
-      213: 8246812749522225506
-    second: Sniper_Top_Body_Sheet_14
-  - first:
-      213: -4964031608288689308
-    second: Sniper_Top_Body_Sheet_15
-  - first:
-      213: -5071061221637402433
-    second: Sniper_Top_Body_Sheet_16
-  - first:
-      213: 2109592553210151350
-    second: Sniper_Top_Body_Sheet_17
-  - first:
-      213: -3171148818153275915
-    second: Sniper_Top_Body_Sheet_18
-  - first:
-      213: 6390056521435783966
-    second: Sniper_Top_Body_Sheet_19
-  - first:
-      213: 4006864597655495842
-    second: Sniper_Top_Body_Sheet_20
-  - first:
-      213: 8660422872505345525
-    second: Sniper_Top_Body_Sheet_21
+      213: 4764848462470390892
+    second: MenuHero_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -138,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -163,253 +136,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_0
+      name: MenuHero_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 160
+        x: 0
+        y: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 91232b3bd3a3a5d4ab63add8e019ab57
-      internalID: 1016318388
+      spriteID: 4f5011ff9e0271e70800000000000000
+      internalID: 9085766962622039540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_1
+      name: MenuHero_1
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 160
+        x: 240
+        y: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f1ca568b6f04db848976a2a18b173dfc
-      internalID: 560482141
+      spriteID: 4c0781817b75282d0800000000000000
+      internalID: -3277961134877413180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_2
+      name: MenuHero_2
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 160
+        x: 480
+        y: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f4bbe4eceb495214d9fcd1b041562b75
-      internalID: -1451398368
+      spriteID: 43e3e5c21c0d4bd00800000000000000
+      internalID: 987643746392620596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_3
+      name: MenuHero_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0424a05c1c8e45970800000000000000
+      internalID: 8742868695565091392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuHero_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b4e208313ebbca0800000000000000
+      internalID: -5999952405646652576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuHero_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310f51c77900fc270800000000000000
+      internalID: 8272831691124764691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuHero_6
       rect:
         serializedVersion: 2
         x: 480
         y: 0
-        width: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 04e1af7ebf6d0a74fb0964dbab58bd72
-      internalID: -1255779590
+      spriteID: aeacc410d9555f320800000000000000
+      internalID: 2591071293441624810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_4
+      name: MenuHero_7
       rect:
         serializedVersion: 2
-        x: 640
+        x: 720
         y: 0
-        width: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a460192c73a3f98479e33a9eead3543e
-      internalID: 165030016
+      spriteID: 50fc26d813fc8a110800000000000000
+      internalID: 1272494706464575237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 160
-        height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd3c975ded0a3ee4389d863d0db2a110
-      internalID: -1106510990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_6
+      name: MenuHero_8
       rect:
         serializedVersion: 2
         x: 960
         y: 0
-        width: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 42c405770f2496140ac76660bcd92e33
-      internalID: 2071045679
+      spriteID: 184456230ac080840800000000000000
+      internalID: 5190412452724294785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_7
+      name: MenuHero_9
       rect:
         serializedVersion: 2
-        x: 1120
+        x: 1200
         y: 0
-        width: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d68b4199511215f469588b31de173817
-      internalID: -1805055905
+      spriteID: a50d9fa0ddcecae00800000000000000
+      internalID: 1057480446641295450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 160
-        height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eafbae8455a3f0f4299dd98cdf12d04c
-      internalID: -189149876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_9
+      name: MenuHero_10
       rect:
         serializedVersion: 2
         x: 1440
         y: 0
-        width: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c7d46824a0ba2d34ba02ea0fee8865c4
-      internalID: -422727793
+      spriteID: 0687ffd5cb13593f0800000000000000
+      internalID: -894754265862539168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_10
+      name: MenuHero_11
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 1680
         y: 0
-        width: 160
+        width: 240
         height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cb2d82c5ff6639c4789dfd9385914a2b
-      internalID: -1359674424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sniper_Top_Body_Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 1760
-        y: 0
-        width: 160
-        height: 160
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1798ecf9b2e785946afa967879f28959
-      internalID: -1534995505
+      spriteID: b987ff35f0debc190800000000000000
+      internalID: -7940992867848193893
       vertices: []
       indices: 
       edges: []
@@ -417,7 +390,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 484eb24edbcac1945bdf95d21d5a5bfe
+    spriteID: c46adb2faa3a97e44b0729088854d91c
     internalID: 0
     vertices: []
     indices: 
@@ -425,18 +398,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sniper_Top_Body_Sheet_0: 1016318388
-      Sniper_Top_Body_Sheet_1: 560482141
-      Sniper_Top_Body_Sheet_10: -1359674424
-      Sniper_Top_Body_Sheet_11: -1534995505
-      Sniper_Top_Body_Sheet_2: -1451398368
-      Sniper_Top_Body_Sheet_3: -1255779590
-      Sniper_Top_Body_Sheet_4: 165030016
-      Sniper_Top_Body_Sheet_5: -1106510990
-      Sniper_Top_Body_Sheet_6: 2071045679
-      Sniper_Top_Body_Sheet_7: -1805055905
-      Sniper_Top_Body_Sheet_8: -189149876
-      Sniper_Top_Body_Sheet_9: -422727793
+      MenuHero_0: 9085766962622039540
+      MenuHero_1: -3277961134877413180
+      MenuHero_10: -894754265862539168
+      MenuHero_11: -7940992867848193893
+      MenuHero_2: 987643746392620596
+      MenuHero_3: 8742868695565091392
+      MenuHero_4: -5999952405646652576
+      MenuHero_5: 8272831691124764691
+      MenuHero_6: 2591071293441624810
+      MenuHero_7: 1272494706464575237
+      MenuHero_8: 5190412452724294785
+      MenuHero_9: 1057480446641295450
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
