@@ -2472,7 +2472,7 @@ MonoBehaviour:
   endPosition: {fileID: 588644961}
   initialMoveSpeed: 0.05
   moveSpeed: 0.05
-  timeToSpawn: 180
+  timeToSpawn: 5
   phase1SpawnAmount: 6
   phase1CurrentActive: 0
   phase2SpawnAmount: 12
@@ -4019,10 +4019,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 552195770785890737, guid: 0a4f060271d75da4e8af4ed838bdb1d1, type: 3}
-      propertyPath: speed
-      value: 0.25
-      objectReference: {fileID: 0}
     - target: {fileID: 3059872544222432472, guid: 0a4f060271d75da4e8af4ed838bdb1d1, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4066,14 +4062,6 @@ PrefabInstance:
     - target: {fileID: 3488202891245441670, guid: 0a4f060271d75da4e8af4ed838bdb1d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6792314629843833347, guid: 0a4f060271d75da4e8af4ed838bdb1d1, type: 3}
-      propertyPath: debug
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7739311625784475100, guid: 0a4f060271d75da4e8af4ed838bdb1d1, type: 3}
-      propertyPath: _damage
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

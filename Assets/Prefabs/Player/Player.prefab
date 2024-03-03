@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   move: 0
-  speed: 0.1
+  speed: 0.25
 --- !u!212 &4550800372584924198
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -165,7 +165,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.02, y: -0.02}
-  m_Size: {x: 0.12, y: 0.27}
+  m_Size: {x: 0.1, y: 0.2}
   m_Direction: 0
 --- !u!50 &4644998900343187263
 Rigidbody2D:
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 955063d1a90519c4face0769e4109a0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debug: 1
+  debug: 0
   hasShield: 0
 --- !u!1 &3154296740142468791
 GameObject:
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5544df8dc4cf5946a0f32bb53ffd6e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 8
+  _damage: 10
   _time: 5
   _speed: 0.7
   _fireRate: 1
