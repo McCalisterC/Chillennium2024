@@ -29,6 +29,7 @@ public class TestEnemyScript_Controller : MonoBehaviour
     public void DeathPhysics()
     {
         death = true;
+        this.gameObject.tag = "Untagged";
         this.gameObject.GetComponentInChildren<TestEnemyGun>().StopShoot();
         this.GetComponent<Rigidbody2D>().isKinematic = false;
         this.GetComponent<Rigidbody2D>().AddForce(new Vector3(deathForce, deathForce, 0));

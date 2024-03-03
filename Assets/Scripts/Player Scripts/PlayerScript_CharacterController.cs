@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,11 +19,15 @@ public class PlayerScript_CharacterController : MonoBehaviour
 
     [SerializeField] private int basePowerUpDropChance = 5;
     public int powerUpDropChance;
+    AudioSource audioSource;
+    public AudioClip[] audioClips;
+    public AudioClip powerUPPickup;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = this.GetComponentInChildren<AudioSource>();
         powerUpDropChance = basePowerUpDropChance;
         currentGun = this.GetComponentInChildren<IGun>();
         _input = GetComponent<PlayerScript_PlayerInput>();
@@ -74,5 +77,26 @@ public class PlayerScript_CharacterController : MonoBehaviour
     public void ResetDropRate()
     {
         powerUpDropChance = basePowerUpDropChance;
+    }
+
+    public void PlayPickUPAudio()
+    {
+        if (!audioSource.isPlaying)
+        {
+
+            audioSource.clip = powerUPPickup;
+            audioSource.Play();
+            if(Random.Range(0,5) == 0)
+            {
+                StartCoroutine(WaitUntilSoundIsDone());
+            }
+        }
+    }
+
+    private IEnumerator WaitUntilSoundIsDone()
+    {
+        yield return new WaitUntil(() => !audioSource.isPlaying);
+        audioSource.clip = audioClips[Random.Range(0, audioClips.Length)];
+        audioSource.Play();
     }
 }

@@ -18,6 +18,7 @@ public class PickUp_Sniper : MonoBehaviour
             ps_cc.sniper.SetActive(true);
             ps_cc.currentGun = ps_cc.sniper.GetComponent<IGun>();
             ps_cc.currentGun.StartTimer();
+            collision.GetComponent<PlayerScript_CharacterController>().PlayPickUPAudio();
             Destroy(this.gameObject);
         }
     }

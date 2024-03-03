@@ -25,7 +25,7 @@ public class EnemyScripts_EnemyStats : MonoBehaviour
         else if (Random.Range(1, 100) <= ps_cc.powerUpDropChance)
         {
             willDropPickup = true;
-            this.GetComponent<SpriteRenderer>().color = Color.red;
+            this.GetComponentInChildren<SpriteRenderer>().color = Color.red;
             pickUpDropped = Random.Range(0, drops.Length);
             ps_cc.ResetDropRate();
         }

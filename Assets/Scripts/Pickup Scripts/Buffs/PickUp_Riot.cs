@@ -14,13 +14,14 @@ public class PickUp_Riot : MonoBehaviour
         if (collision.tag == "Player")
         {
             collision.GetComponent<PlayerScripts_Stats>().hasShield = true;
+            collision.GetComponent<PlayerScript_CharacterController>().PlayPickUPAudio();
             Destroy(this.gameObject);
         }
     }
 
     private void Move()
     {
-        if(this.GetComponent<Transform>().transform.position.y < 3)
+        if (this.GetComponent<Transform>().transform.position.y < 3)
         {
             this.GetComponent<Transform>().transform.position += new Vector3(-speed, 0, 0);
         }
