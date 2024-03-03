@@ -196,7 +196,7 @@ MonoBehaviour:
   - {fileID: 5913056406138294489, guid: fb95c8bd99ddea94b8cac7ceacb4b14f, type: 3}
   - {fileID: 5913056406138294489, guid: b0d1b30215cb6b54185ba55659d98ee3, type: 3}
   - {fileID: 5913056406138294489, guid: 97a7584db87e8194d805a7a736d085de, type: 3}
-  health: 10
+  health: 8
   dropChanceIncreaseAmount: 1
   isHelicopter: 0
   pickUpDropped: 0
