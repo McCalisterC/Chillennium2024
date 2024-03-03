@@ -1,0 +1,789 @@
+fileFormatVersion: 2
+guid: 1964ae05e37abeb419b732156fd08ec7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4315178127528718424
+    second: AA_Gun_Shooting_Sheet_0
+  - first:
+      213: -197209359898426667
+    second: AA_Gun_Shooting_Sheet_1
+  - first:
+      213: 4404118339563243513
+    second: AA_Gun_Shooting_Sheet_2
+  - first:
+      213: 6206785696987779641
+    second: AA_Gun_Shooting_Sheet_3
+  - first:
+      213: -7171771681987299717
+    second: AA_Gun_Shooting_Sheet_4
+  - first:
+      213: -8772058386133628728
+    second: AA_Gun_Shooting_Sheet_5
+  - first:
+      213: -7484476201309493838
+    second: AA_Gun_Shooting_Sheet_6
+  - first:
+      213: 4589809599242881433
+    second: AA_Gun_Shooting_Sheet_7
+  - first:
+      213: -8470886157134330021
+    second: AA_Gun_Shooting_Sheet_8
+  - first:
+      213: -5833009291661912802
+    second: AA_Gun_Shooting_Sheet_9
+  - first:
+      213: 4189518241952462621
+    second: AA_Gun_Shooting_Sheet_10
+  - first:
+      213: -2720085097754423060
+    second: AA_Gun_Shooting_Sheet_11
+  - first:
+      213: -3927097698780064618
+    second: AA_Gun_Shooting_Sheet_12
+  - first:
+      213: 7192790411846247331
+    second: AA_Gun_Shooting_Sheet_13
+  - first:
+      213: -232533926319444907
+    second: AA_Gun_Shooting_Sheet_14
+  - first:
+      213: 5253904785268221633
+    second: AA_Gun_Shooting_Sheet_15
+  - first:
+      213: -5569294136959238820
+    second: AA_Gun_Shooting_Sheet_16
+  - first:
+      213: 5891956495401526067
+    second: AA_Gun_Shooting_Sheet_17
+  - first:
+      213: 6148311807638053283
+    second: AA_Gun_Shooting_Sheet_18
+  - first:
+      213: -8919111612498980218
+    second: AA_Gun_Shooting_Sheet_19
+  - first:
+      213: 5082428513441730685
+    second: AA_Gun_Shooting_Sheet_20
+  - first:
+      213: 6053255032495381043
+    second: AA_Gun_Shooting_Sheet_21
+  - first:
+      213: -247078187864735289
+    second: AA_Gun_Shooting_Sheet_22
+  - first:
+      213: -3087744717535505868
+    second: AA_Gun_Shooting_Sheet_23
+  - first:
+      213: -4463644860762527016
+    second: AA_Gun_Shooting_Sheet_24
+  - first:
+      213: -359372602947524838
+    second: AA_Gun_Shooting_Sheet_25
+  - first:
+      213: -1524047754398003948
+    second: AA_Gun_Shooting_Sheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85072e9e4a792eb30800000000000000
+      internalID: 4315178127528718424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d24fdcc12f534df0800000000000000
+      internalID: -197209359898426667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7437abb429e1d30800000000000000
+      internalID: 4404118339563243513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9329ee9d4bee22650800000000000000
+      internalID: 6206785696987779641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76f0f427afb87c90800000000000000
+      internalID: -7171771681987299717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8c489cf53634680800000000000000
+      internalID: -8772058386133628728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b52513ac8cc12890800000000000000
+      internalID: -7484476201309493838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999cc8d338742bf30800000000000000
+      internalID: 4589809599242881433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b570c37bbed517a80800000000000000
+      internalID: -8470886157134330021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1550fe24fcfc0fa0800000000000000
+      internalID: -5833009291661912802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17789fd4a8242a30800000000000000
+      internalID: 4189518241952462621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce09385e301504ad0800000000000000
+      internalID: -2720085097754423060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694d5f913752089c0800000000000000
+      internalID: -3927097698780064618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a36ee145cce1d360800000000000000
+      internalID: 7192790411846247331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ca08340afd5ccf0800000000000000
+      internalID: -232533926319444907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c623a9d09e99e840800000000000000
+      internalID: 5253904785268221633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5df0e46d74e5b2b0800000000000000
+      internalID: -5569294136959238820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333a674373f64c150800000000000000
+      internalID: 5891956495401526067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a12b9e8301335550800000000000000
+      internalID: 6148311807638053283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682dfe07e33f83480800000000000000
+      internalID: -8919111612498980218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70d20c1ec9688640800000000000000
+      internalID: 5082428513441730685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a9bba616b710450800000000000000
+      internalID: 6053255032495381043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1439c72b3329cf0800000000000000
+      internalID: -247078187864735289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432153af9802625d0800000000000000
+      internalID: -3087744717535505868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da60c606a2fd02c0800000000000000
+      internalID: -4463644860762527016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a172e4b8580430bf0800000000000000
+      internalID: -359372602947524838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AA_Gun_Shooting_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d006264ae79dae0800000000000000
+      internalID: -1524047754398003948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fd25718affc7e654786881295e8c8ffe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AA_Gun_Shooting_Sheet_0: 4315178127528718424
+      AA_Gun_Shooting_Sheet_1: -197209359898426667
+      AA_Gun_Shooting_Sheet_10: 4189518241952462621
+      AA_Gun_Shooting_Sheet_11: -2720085097754423060
+      AA_Gun_Shooting_Sheet_12: -3927097698780064618
+      AA_Gun_Shooting_Sheet_13: 7192790411846247331
+      AA_Gun_Shooting_Sheet_14: -232533926319444907
+      AA_Gun_Shooting_Sheet_15: 5253904785268221633
+      AA_Gun_Shooting_Sheet_16: -5569294136959238820
+      AA_Gun_Shooting_Sheet_17: 5891956495401526067
+      AA_Gun_Shooting_Sheet_18: 6148311807638053283
+      AA_Gun_Shooting_Sheet_19: -8919111612498980218
+      AA_Gun_Shooting_Sheet_2: 4404118339563243513
+      AA_Gun_Shooting_Sheet_20: 5082428513441730685
+      AA_Gun_Shooting_Sheet_21: 6053255032495381043
+      AA_Gun_Shooting_Sheet_22: -247078187864735289
+      AA_Gun_Shooting_Sheet_23: -3087744717535505868
+      AA_Gun_Shooting_Sheet_24: -4463644860762527016
+      AA_Gun_Shooting_Sheet_25: -359372602947524838
+      AA_Gun_Shooting_Sheet_26: -1524047754398003948
+      AA_Gun_Shooting_Sheet_3: 6206785696987779641
+      AA_Gun_Shooting_Sheet_4: -7171771681987299717
+      AA_Gun_Shooting_Sheet_5: -8772058386133628728
+      AA_Gun_Shooting_Sheet_6: -7484476201309493838
+      AA_Gun_Shooting_Sheet_7: 4589809599242881433
+      AA_Gun_Shooting_Sheet_8: -8470886157134330021
+      AA_Gun_Shooting_Sheet_9: -5833009291661912802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

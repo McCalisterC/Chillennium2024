@@ -23,6 +23,18 @@ public class ProjectileScript_RegularBullet : MonoBehaviour
             {
                 enemyStats.Death();
             }
+            else if(collision.GetComponent<SniperEnemy_Controller>() == null)
+            {
+                Animator otherAnim = collision.GetComponent<Animator>();
+                try
+                {
+                    otherAnim.SetTrigger("Hit");
+                }
+                catch (UnassignedReferenceException ex)
+                {
+                    Debug.Log(ex);
+                }
+            }
             Destroy(gameObject);
         }
 

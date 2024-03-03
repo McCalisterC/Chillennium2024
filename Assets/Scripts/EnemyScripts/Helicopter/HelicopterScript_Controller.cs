@@ -8,8 +8,11 @@ public class HelicopterScript_Controller : MonoBehaviour
     public Transform endPosition;
     public float initialMoveSpeed = 2.0f; // Speed of the movement
     public float moveSpeed = 0.05f;
+    public float gibForce = 15f;
 
     public bool hasStartedShooting = false;
+    public List<GameObject> gibObjects;
+    public Transform[] gibTransformSpawns;
 
     void Start()
     {
@@ -58,5 +61,32 @@ public class HelicopterScript_Controller : MonoBehaviour
             }
         }
         hasStartedShooting = false;
+    }
+
+    public void SpawnGibs()
+    {
+        for (int i = 0; i < gibTransformSpawns.Length; i++)
+        {
+            GameObject temp = gibObjects[Random.Range(0, gibObjects.Count)];
+            GameObject gib = Instantiate(temp, gibTransformSpawns[i].position, Quaternion.identity);
+            gibObjects.Remove(temp);
+            if (i <= 2)
+            {
+                gib.GetComponent<MiscScript_GibParts>().forceX = -gibForce;
+                gib.GetComponent<MiscScript_GibParts>().forceY = gibForce;
+            }
+            else if(i <= 4)
+            {
+
+                gib.GetComponent<MiscScript_GibParts>().forceX = Random.Range(-10, 10);
+                gib.GetComponent<MiscScript_GibParts>().forceY = gibForce;
+            }
+            else
+            {
+
+                gib.GetComponent<MiscScript_GibParts>().forceX = gibForce;
+                gib.GetComponent<MiscScript_GibParts>().forceY = gibForce;
+            }
+        }
     }
 }

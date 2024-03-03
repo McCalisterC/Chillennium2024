@@ -23,11 +23,15 @@ public class GunScript_Shotgun : MonoBehaviour, IGun
         //Instatiate 3 bullets at end of gun barrel
         GameObject bulletShotForward = Instantiate(bullet, bulletSpawnTransform.position, Quaternion.identity);
         GameObject bulletShotUpward = Instantiate(bullet, bulletSpawnTransform.position, Quaternion.identity);
+        GameObject bulletShotUpward2 = Instantiate(bullet, bulletSpawnTransform.position, Quaternion.identity);
+        GameObject bulletShotDownward2 = Instantiate(bullet, bulletSpawnTransform.position, Quaternion.identity);
         GameObject bulletShotDownward = Instantiate(bullet, bulletSpawnTransform.position, Quaternion.identity);
         //Add speed to each bullet
         bulletShotForward.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, 0, 0);
         bulletShotUpward.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, speed/3, 0);
+        bulletShotUpward2.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, speed / 6, 0);
         bulletShotDownward.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, -speed/3, 0);
+        bulletShotDownward2.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, -speed / 6, 0);
 
         yield return new WaitForSeconds(1 / fireRate);
         StartCoroutine(Shoot());

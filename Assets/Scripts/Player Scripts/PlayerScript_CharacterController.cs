@@ -19,7 +19,8 @@ public class PlayerScript_CharacterController : MonoBehaviour
 
     [SerializeField] private int basePowerUpDropChance = 5;
     public int powerUpDropChance;
-    AudioSource audioSource;
+    public AudioSource rift;
+    public AudioSource pickUp;
     public AudioClip[] audioClips;
     public AudioClip powerUPPickup;
 
@@ -27,7 +28,6 @@ public class PlayerScript_CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = this.GetComponentInChildren<AudioSource>();
         powerUpDropChance = basePowerUpDropChance;
         currentGun = this.GetComponentInChildren<IGun>();
         _input = GetComponent<PlayerScript_PlayerInput>();
@@ -81,11 +81,11 @@ public class PlayerScript_CharacterController : MonoBehaviour
 
     public void PlayPickUPAudio()
     {
-        if (!audioSource.isPlaying)
+        if (!rift.isPlaying)
         {
 
-            audioSource.clip = powerUPPickup;
-            audioSource.Play();
+            rift.clip = powerUPPickup;
+            rift.Play();
             if(Random.Range(0,5) == 0)
             {
                 StartCoroutine(WaitUntilSoundIsDone());
@@ -95,8 +95,8 @@ public class PlayerScript_CharacterController : MonoBehaviour
 
     private IEnumerator WaitUntilSoundIsDone()
     {
-        yield return new WaitUntil(() => !audioSource.isPlaying);
-        audioSource.clip = audioClips[Random.Range(0, audioClips.Length)];
-        audioSource.Play();
+        yield return new WaitUntil(() => !rift.isPlaying);
+        pickUp.clip = audioClips[Random.Range(0, audioClips.Length)];
+        pickUp.Play();
     }
 }

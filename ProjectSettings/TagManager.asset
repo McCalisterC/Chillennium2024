@@ -11,6 +11,7 @@ TagManager:
   - BossLand
   - BossChopper
   - Score
+  - Sniper
   layers:
   - Default
   - TransparentFX
