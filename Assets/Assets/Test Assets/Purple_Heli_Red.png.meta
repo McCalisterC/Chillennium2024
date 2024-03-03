@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Purple_Heli_Red_0: 4868294005241118997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

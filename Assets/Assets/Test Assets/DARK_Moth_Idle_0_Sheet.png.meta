@@ -202,7 +202,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DARK_Moth_Idle_0_Sheet_0: 1219794352963127732
+      DARK_Moth_Idle_0_Sheet_1: 7431292387494185551
+      DARK_Moth_Idle_0_Sheet_2: -485209017710043951
+      DARK_Moth_Idle_0_Sheet_3: -5773099674155409855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

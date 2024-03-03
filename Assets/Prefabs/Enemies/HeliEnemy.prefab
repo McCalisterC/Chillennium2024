@@ -205,9 +205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7144e6affe04cfb4d88e22405528fec9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 0.25
   fireRate: 10
-  amountPerEngage: 50
+  amountPerEngage: 20
   currentEngageAmount: 0
   bullet: {fileID: 3085861095662274113, guid: 491af1e5855fb1a4a9539ba8d6bea8af, type: 3}
   bulletSpawnObject: {fileID: 3398823522544613036}
