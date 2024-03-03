@@ -45,24 +45,24 @@ public class PlayerScript_CharacterController : MonoBehaviour
     void Move()
     {
         Transform charTransform = this.GetComponent<Transform>().transform;
-        if (charTransform.localPosition.y <= upperLadderBound &&
-            charTransform.localPosition.y >= lowerLadderBound)
+        if (charTransform.position.y <= upperLadderBound &&
+            charTransform.position.y >= lowerLadderBound)
         {
             MovePlayer();
-            if (charTransform.localPosition.y > upperLadderBound)
+            if (charTransform.position.y > upperLadderBound)
             {
-                charTransform.localPosition = new Vector3(xAxis, upperLadderBound, 0);
+                charTransform.position = new Vector3(xAxis, upperLadderBound, 0);
             }
-            else if(charTransform.localPosition.y < lowerLadderBound)
+            else if(charTransform.position.y < lowerLadderBound)
             {
-                charTransform.localPosition = new Vector3(xAxis, lowerLadderBound, 0);
+                charTransform.position = new Vector3(xAxis, lowerLadderBound, 0);
             }
         }
     }
 
     void MovePlayer()
     {
-        this.GetComponent<Transform>().transform.localPosition += new Vector3(0, _input.move, 0);
+        this.GetComponent<Transform>().transform.position += new Vector3(0, _input.move, 0);
         if(_input.move > 0)
         {
             playerAnim.SetBool("ClimbingUp", true);
