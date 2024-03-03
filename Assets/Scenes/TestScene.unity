@@ -1800,7 +1800,7 @@ MonoBehaviour:
   spawnX: 3
   spawnY: 3
   spawnRateLowerBound: 0.5
-  spawnRateUpperBound: 0.8
+  spawnRateUpperBound: 2
   enemyToSpawn: {fileID: 3145255461508253405, guid: 4e4f5dec2641f374181cab2f8f98d64b, type: 3}
 --- !u!1 &823886084
 GameObject:
