@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
@@ -10,6 +11,7 @@ public class BossScript_ChopperController : MonoBehaviour
     public float initialMoveSpeed = 2.0f; // Speed of the movement
     public float moveSpeed = 0.05f;
     public int timeToSpawn = 180;
+    public Transform spawnPoint;
     public int phase1SpawnAmount = 6;
     public int phase1CurrentActive = 0;
     public int phase2SpawnAmount = 12;
@@ -22,6 +24,9 @@ public class BossScript_ChopperController : MonoBehaviour
     public GameObject gruntObject;
     public GameObject[] spawnsToStop;
     public Animator continueUI;
+    public Animator parent;
+    public AudioSource BGM;
+    public AudioClip winJingle;
 
     void Start()
     {
@@ -53,12 +58,7 @@ public class BossScript_ChopperController : MonoBehaviour
 
             else
             {
-                GameObject grunt = Instantiate(gruntObject, this.transform.position, Quaternion.identity);
-                BossScript_GruntController bs_gc = grunt.GetComponent<BossScript_GruntController>();
-                bs_gc.nextPosition = new Vector3(bs_gc.transform.position.x, bs_gc.upperBound / bs_gc.lowerBound, 0);
-                bs_gc.StartSequence();
-                phase1CurrentActive++;
-                phase1SpawnAmount--;
+                this.GetComponent<Animator>().SetTrigger("Spawn");
             }
 
             yield return new WaitForSeconds(1);
@@ -83,22 +83,9 @@ public class BossScript_ChopperController : MonoBehaviour
 
             else
             {
-                GameObject grunt = Instantiate(gruntObject, this.transform.position, Quaternion.identity);
-                BossScript_GruntController bs_gc = grunt.GetComponent<BossScript_GruntController>();
-                float temp = bs_gc.upperBound / bs_gc.lowerBound;
-                bs_gc.GetComponent<BossScript_GruntController>().phase = 2;
-                bs_gc.nextPosition = new Vector3(bs_gc.transform.position.x, temp / bs_gc.lowerBound, 0);
-                bs_gc.upperBound = temp;
-                bs_gc.StartSequence();
-                yield return new WaitForSeconds(1);
-                GameObject grunt2 = Instantiate(gruntObject, this.transform.position, Quaternion.identity);
-                BossScript_GruntController bs_gc2 = grunt2.GetComponent<BossScript_GruntController>();
-                bs_gc2.GetComponent<BossScript_GruntController>().phase = 2;
-                bs_gc2.nextPosition = new Vector3(bs_gc.transform.position.x, bs_gc.upperBound / temp, 0);
-                bs_gc2.lowerBound = temp;
-                bs_gc2.StartSequence();
-                phase2CurrentActive += 2;
-                phase2SpawnAmount -= 2;
+                this.GetComponent<Animator>().SetTrigger("Spawn");
+                yield return new WaitForSeconds (1);
+                this.GetComponent<Animator>().SetTrigger("Spawn");
             }
 
             yield return new WaitForSeconds(1);
@@ -117,43 +104,24 @@ public class BossScript_ChopperController : MonoBehaviour
 
             if (phase3SpawnAmount <= 0 && phase3CurrentActive == 0)
             {
+                parent.gameObject.GetComponentInChildren<PlayerInput>().enabled = false;
                 GameObject.FindGameObjectWithTag("Player").gameObject.tag = "Untagged";
-                GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<PlayerInput>().enabled = false;
+                parent.SetTrigger("Win");
+                BGM.Stop();
+                BGM.clip = winJingle;
+                BGM.Play();
                 StartCoroutine(ContinueUI());
-                Destroy(this.gameObject);
+                this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
             }
 
             else
             {
-                GameObject grunt = Instantiate(gruntObject, this.transform.position, Quaternion.identity);
-                BossScript_GruntController bs_gc = grunt.GetComponent<BossScript_GruntController>();
-                bs_gc.GetComponent<BossScript_GruntController>().phase = 3;
-                bs_gc.nextPosition = new Vector3(bs_gc.transform.position.x, (bs_gc.upperBound / 3) / bs_gc.lowerBound, 0);
-                bs_gc.upperBound = (bs_gc.upperBound / 3);
-                bs_gc.StartSequence();
 
+                this.GetComponent<Animator>().SetTrigger("Spawn");
                 yield return new WaitForSeconds(1);
-
-                GameObject grunt2 = Instantiate(gruntObject, this.transform.position, Quaternion.identity);
-                BossScript_GruntController bs_gc2 = grunt2.GetComponent<BossScript_GruntController>();
-                bs_gc2.GetComponent<BossScript_GruntController>().phase = 3;
-                bs_gc2.nextPosition = new Vector3(bs_gc.transform.position.x, (bs_gc.upperBound / 3) / (bs_gc.lowerBound / 3), 0);
-                bs_gc2.upperBound = (bs_gc.upperBound / 3);
-                bs_gc2.lowerBound = (bs_gc.lowerBound / 3);
-                bs_gc2.StartSequence();
-
-
+                this.GetComponent<Animator>().SetTrigger("Spawn");
                 yield return new WaitForSeconds(1);
-
-                GameObject grunt3 = Instantiate(gruntObject, this.transform.position, Quaternion.identity);
-                BossScript_GruntController bs_gc3 = grunt3.GetComponent<BossScript_GruntController>();
-                bs_gc3.GetComponent<BossScript_GruntController>().phase = 3;
-                bs_gc3.nextPosition = new Vector3(bs_gc.transform.position.x, bs_gc.upperBound / (bs_gc.lowerBound / 3), 0);
-                bs_gc3.lowerBound = (bs_gc.lowerBound / 3);
-                bs_gc3.StartSequence();
-
-                phase3CurrentActive += 3;
-                phase3SpawnAmount -= 3;
+                this.GetComponent<Animator>().SetTrigger("Spawn");
             }
 
             yield return new WaitForSeconds(1);
@@ -188,8 +156,42 @@ public class BossScript_ChopperController : MonoBehaviour
     }
     IEnumerator ContinueUI()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         continueUI.SetTrigger("Enter");
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnGrunt()
+    {
+        if(currentPhase == 1)
+        {
+            GameObject grunt = Instantiate(gruntObject, spawnPoint.transform.position, Quaternion.identity);
+            BossScript_GruntController bs_gc = grunt.GetComponent<BossScript_GruntController>();
+            bs_gc.nextPosition = new Vector3(bs_gc.transform.position.x, bs_gc.upperBound / bs_gc.lowerBound, 0);
+            bs_gc.StartSequence();
+            phase1CurrentActive++;
+            phase1SpawnAmount--;
+        }
+        else if(currentPhase == 2)
+        {
+            GameObject grunt = Instantiate(gruntObject, spawnPoint.transform.position, Quaternion.identity);
+            BossScript_GruntController bs_gc = grunt.GetComponent<BossScript_GruntController>();
+            bs_gc.nextPosition = new Vector3(bs_gc.transform.position.x, bs_gc.upperBound / bs_gc.lowerBound, 0);
+            bs_gc.phase = 2;
+            bs_gc.StartSequence();
+            phase2CurrentActive++;
+            phase2SpawnAmount--;
+        }
+        else
+        {
+            GameObject grunt = Instantiate(gruntObject, spawnPoint.transform.position, Quaternion.identity);
+            BossScript_GruntController bs_gc = grunt.GetComponent<BossScript_GruntController>();
+            bs_gc.nextPosition = new Vector3(bs_gc.transform.position.x, bs_gc.upperBound / bs_gc.lowerBound, 0);
+            bs_gc.phase = 3;
+            bs_gc.StartSequence();
+            phase3CurrentActive++;
+            phase3SpawnAmount--;
+        }
     }
 
 }

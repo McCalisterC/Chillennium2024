@@ -17,7 +17,7 @@ public class MiscScript_ContinueUI : MonoBehaviour
     }
     public void Continue()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("TestScene");
     }
     public void ExitGame()
     {

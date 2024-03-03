@@ -87,6 +87,10 @@ public class PlayerScript_CharacterController : MonoBehaviour
 
     public void EnableBaseWeapon()
     {
+
+        GameObject.FindGameObjectWithTag("PlayerArm").GetComponent<SpriteRenderer>().enabled = true;
+        GameObject.FindGameObjectWithTag("SniperArm").GetComponent<SpriteRenderer>().enabled = false;
+        GameObject.FindGameObjectWithTag("ShotgunArm").GetComponent<SpriteRenderer>().enabled = false;
         baseGun.SetActive(true);
         currentGun = baseGun.GetComponent<IGun>();
         currentGun.StartTimer();

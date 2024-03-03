@@ -18,6 +18,9 @@ public class PickUp_Shotgun : MonoBehaviour
             ps_cc.shotGun.SetActive(true);
             ps_cc.currentGun = ps_cc.shotGun.GetComponent<IGun>();
             ps_cc.currentGun.StartTimer();
+            GameObject.FindGameObjectWithTag("PlayerArm").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.FindGameObjectWithTag("SniperArm").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.FindGameObjectWithTag("ShotgunArm").GetComponent<SpriteRenderer>().enabled = true;
             collision.GetComponent<PlayerScript_CharacterController>().PlayPickUPAudio();
             Destroy(this.gameObject);
         }
@@ -25,12 +28,15 @@ public class PickUp_Shotgun : MonoBehaviour
 
     private void Move()
     {
-        if(this.GetComponent<Transform>().transform.position.y < 3)
+        if (this.GetComponent<Transform>().transform.position.y < 3 &&
+            this.GetComponent<Transform>().transform.position.y > -2)
         {
             this.GetComponent<Transform>().transform.position += new Vector3(-speed, 0, 0);
         }
-        else
+        else if (this.GetComponent<Transform>().transform.position.y >= 3)
             this.GetComponent<Transform>().transform.position += new Vector3(-speed, -speed, 0);
+        else
+            this.GetComponent<Transform>().transform.position += new Vector3(-speed, speed, 0);
 
         if (this.GetComponent<Transform>().transform.position.x < -10.5)
         {

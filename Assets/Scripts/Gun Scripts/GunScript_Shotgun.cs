@@ -32,7 +32,7 @@ public class GunScript_Shotgun : MonoBehaviour, IGun
         bulletShotUpward2.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, speed / 6, 0);
         bulletShotDownward.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, -speed/3, 0);
         bulletShotDownward2.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, -speed / 6, 0);
-        GameObject.FindGameObjectWithTag("PlayerArm").GetComponent<Animator>().SetTrigger("Shoot");
+        GameObject.FindGameObjectWithTag("ShotgunArm").GetComponent<Animator>().SetTrigger("Shoot");
 
         yield return new WaitForSeconds(1 / fireRate);
         StartCoroutine(Shoot());

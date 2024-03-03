@@ -15,18 +15,22 @@ public class PickUp_Riot : MonoBehaviour
         {
             collision.GetComponent<PlayerScripts_Stats>().hasShield = true;
             collision.GetComponent<PlayerScript_CharacterController>().PlayPickUPAudio();
+            GameObject.FindGameObjectWithTag("Shield").GetComponent<SpriteRenderer>().enabled = true;
             Destroy(this.gameObject);
         }
     }
 
     private void Move()
     {
-        if (this.GetComponent<Transform>().transform.position.y < 3)
+        if (this.GetComponent<Transform>().transform.position.y < 3 &&
+            this.GetComponent<Transform>().transform.position.y > -2)
         {
             this.GetComponent<Transform>().transform.position += new Vector3(-speed, 0, 0);
         }
-        else
+        else if (this.GetComponent<Transform>().transform.position.y >= 3)
             this.GetComponent<Transform>().transform.position += new Vector3(-speed, -speed, 0);
+        else
+            this.GetComponent<Transform>().transform.position += new Vector3(-speed, speed, 0);
 
         if (this.GetComponent<Transform>().transform.position.x < -10.5)
         {

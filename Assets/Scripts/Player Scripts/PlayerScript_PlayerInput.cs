@@ -13,6 +13,10 @@ public class PlayerScript_PlayerInput : MonoBehaviour
     public float move;
     public float speed;
 
+    private void Start()
+    {
+    }
+
     public void OnMove(InputValue value)
     {
         MoveInput(value.Get<float>());

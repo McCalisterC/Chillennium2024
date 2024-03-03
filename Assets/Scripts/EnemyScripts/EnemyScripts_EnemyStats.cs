@@ -9,6 +9,7 @@ public class EnemyScripts_EnemyStats : MonoBehaviour
     public int health;
     public int dropChanceIncreaseAmount = 1;
     public bool isHelicopter = false;
+    public bool isSniper = false;
     private PlayerScript_CharacterController ps_cc;
 
     private bool willDropPickup = false;
@@ -43,11 +44,20 @@ public class EnemyScripts_EnemyStats : MonoBehaviour
             Instantiate(drops[pickUpDropped], this.transform.position, Quaternion.identity);
             willDropPickup = false;
         }
-        if(this.GetComponent<Animator>()  != null && this.GetComponent<HelicopterScript_Controller>() == null)
+        if (isSniper)
+        {
+            this.gameObject.GetComponent<SniperEnemy_Controller>().DeathAnim();
+        }
+        else if (this.GetComponent<Animator>() != null && this.GetComponent<HelicopterScript_Controller>() == null)
             this.GetComponent<Animator>().SetTrigger("Die");
         else
         {
             Destroy(this.gameObject);
         }
+    }
+
+    public void Destory()
+    {
+        Destroy(this.gameObject);
     }
 }

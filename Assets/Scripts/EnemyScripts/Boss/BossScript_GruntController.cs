@@ -11,7 +11,7 @@ public class BossScript_GruntController : MonoBehaviour
 
     public int phase = 1;
 
-    public float deathForce = 2;
+    public float deathForce = 15;
     private bool move = false;
     public bool death = false;
 
@@ -52,6 +52,7 @@ public class BossScript_GruntController : MonoBehaviour
     {
         if (!death)
         {
+            this.gameObject.tag = "Untagged";
             death = true;
             switch (phase)
             {

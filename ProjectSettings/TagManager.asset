@@ -13,6 +13,9 @@ TagManager:
   - Score
   - Sniper
   - PlayerArm
+  - Shield
+  - SniperArm
+  - ShotgunArm
   layers:
   - Default
   - TransparentFX

@@ -12,9 +12,11 @@ public class SniperEnemy_Controller : MonoBehaviour
 
     public Transform targetSprite;
     public float maxAngle = 45.0f;
+    public Animator laser;
 
-    private void Start()
+    private void Update()
     {
+        laser.SetBool("Targeted", !this.GetComponentInChildren<MiscScript_LaserPoint>().trackingPlayer);
     }
 
     void Move()
@@ -35,4 +37,17 @@ public class SniperEnemy_Controller : MonoBehaviour
         }
         Move();
     }
+
+    public void DeathAnim()
+    {
+        Destroy(sniperSprite);
+        tower.GetComponent<Animator>().SetTrigger("Die");
+    }
+
+    IEnumerator DestroySelf()
+    {
+        yield return new WaitForSeconds(3);
+        Destroy(this.gameObject);
+    }
+
 }

@@ -10,6 +10,7 @@ public class PlayerScripts_Stats : MonoBehaviour
     public GameObject arms;
     public AudioSource BGM;
     public AudioSource deathSound;
+    public AudioClip deathJingle;
     public bool death = false;
     public Animator deathUI;
     public void Die(bool ignoreShield)
@@ -30,6 +31,8 @@ public class PlayerScripts_Stats : MonoBehaviour
             }
             else if (hasShield && !ignoreShield)
             {
+
+                GameObject.FindGameObjectWithTag("Shield").GetComponent<SpriteRenderer>().enabled = false;
                 hasShield = false;
             }
         }
@@ -38,11 +41,15 @@ public class PlayerScripts_Stats : MonoBehaviour
     public void DeactivateArms()
     {
         arms.SetActive(false);
+        GameObject.FindGameObjectWithTag("SniperArm").SetActive(false);
+        GameObject.FindGameObjectWithTag("ShotgunArm").SetActive(false);
     }
 
     IEnumerator DeathUI()
     {
         yield return new WaitForSeconds(2);
+        BGM.clip = deathJingle;
+        BGM.Play();
         deathUI.SetTrigger("Enter");
     }
 }

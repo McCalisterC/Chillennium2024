@@ -12,6 +12,7 @@ public class SniperGun : MonoBehaviour
     public GameObject bullet;
     public GameObject bulletSpawnObject;
     private Transform bulletSpawnTransform;
+    public Animator gunAnim;
 
     public IEnumerator Shoot()
     {
@@ -25,7 +26,9 @@ public class SniperGun : MonoBehaviour
             - bulletShot.transform.position).normalized;
         bulletShot.GetComponent<ProjectileScript_RegularBullet>().speed.x = direction.x * speed;
         bulletShot.GetComponent<ProjectileScript_RegularBullet>().speed.y = direction.y * speed;
-        this.GetComponentInChildren<Animator>().SetTrigger("Shoot");
+        gunAnim.SetTrigger("Shoot");
+
+        yield return new WaitForSeconds(timeBetweenShots);
 
         StartCoroutine(Aim());
     }
