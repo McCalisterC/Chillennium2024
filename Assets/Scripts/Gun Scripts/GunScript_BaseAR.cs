@@ -23,6 +23,7 @@ public class GunScript_BaseAR : MonoBehaviour, IGun
         GameObject bulletShot = Instantiate(bullet, bulletSpawnTransform.position, Quaternion.identity);
         //Add speed to bullet
         bulletShot.GetComponent<ProjectileScript_RegularBullet>().speed = new Vector3(speed, 0,0);
+        GameObject.FindGameObjectWithTag("PlayerArm").GetComponent<Animator>().SetTrigger("Shoot");
 
         yield return new WaitForSeconds(1 / fireRate);
         StartCoroutine(Shoot());

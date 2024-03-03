@@ -24,6 +24,7 @@ public class GunScript_Sniper : MonoBehaviour, IGun
         GameObject bulletShotForward = Instantiate(bullet, bulletSpawnTransform.position, Quaternion.identity);
         //Add speed to bullet
         bulletShotForward.GetComponent<ProjectileScript_SniperBullet>().speed = new Vector3(speed, 0, 0);
+        GameObject.FindGameObjectWithTag("PlayerArm").GetComponent<Animator>().SetTrigger("Shoot");
 
         yield return new WaitForSeconds(1 / fireRate);
         StartCoroutine(Shoot());

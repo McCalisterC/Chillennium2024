@@ -12,6 +12,7 @@ TagManager:
   - BossChopper
   - Score
   - Sniper
+  - PlayerArm
   layers:
   - Default
   - TransparentFX

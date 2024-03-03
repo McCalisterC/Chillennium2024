@@ -24,10 +24,13 @@ public class PlayerScript_CharacterController : MonoBehaviour
     public AudioClip[] audioClips;
     public AudioClip powerUPPickup;
 
+    private Animator playerAnim;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        playerAnim = GetComponent<Animator>();
         powerUpDropChance = basePowerUpDropChance;
         currentGun = this.GetComponentInChildren<IGun>();
         _input = GetComponent<PlayerScript_PlayerInput>();
@@ -60,6 +63,21 @@ public class PlayerScript_CharacterController : MonoBehaviour
     void MovePlayer()
     {
         this.GetComponent<Transform>().transform.localPosition += new Vector3(0, _input.move, 0);
+        if(_input.move > 0)
+        {
+            playerAnim.SetBool("ClimbingUp", true);
+            playerAnim.SetBool("DroppingDown", false);
+        }
+        else if (_input.move < 0)
+        {
+            playerAnim.SetBool("ClimbingUp", false);
+            playerAnim.SetBool("DroppingDown", true);
+        }
+        else
+        {
+            playerAnim.SetBool("ClimbingUp", false);
+            playerAnim.SetBool("DroppingDown", false);
+        }
     }
 
     public void DisableCurrentGun()
