@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnScript_Sniper : MonoBehaviour
+public class SpawnScript_Sniper : MonoBehaviour, ISpawns
 {
     public GameObject[] spawnPoints;
     public GameObject sniper;
@@ -21,5 +21,10 @@ public class SpawnScript_Sniper : MonoBehaviour
         int spawnUsed = Random.Range(0, spawnPoints.Length);
         Instantiate(sniper, spawnPoints[spawnUsed].transform.position, Quaternion.identity);
         StartCoroutine(SpawnSniper());
+    }
+
+    public void StopCoroutine()
+    {
+        this.StopAllCoroutines();
     }
 }

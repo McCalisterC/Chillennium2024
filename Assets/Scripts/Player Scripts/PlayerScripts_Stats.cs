@@ -5,9 +5,14 @@ using UnityEngine;
 public class PlayerScripts_Stats : MonoBehaviour
 {
     public bool debug = false;
-    public void Die()
+    public bool hasShield = false;
+    public void Die(bool ignoreShield)
     {
-        if(!debug)
+        if(!debug && !hasShield || ignoreShield && !debug)
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        else if (hasShield && !ignoreShield)
+        {
+            hasShield = false;
+        }
     }
 }

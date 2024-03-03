@@ -28,7 +28,7 @@ public class ProjectileScript_RegularBullet : MonoBehaviour
 
         else if(collision.tag == "Player" && shotByEnemy)
         {
-            collision.GetComponent<PlayerScripts_Stats>().Die();
+            collision.GetComponent<PlayerScripts_Stats>().Die(false);
         }
     }
 

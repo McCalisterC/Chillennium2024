@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6862472149005972987}
   - component: {fileID: 1744674126719944298}
-  - component: {fileID: 6864902027868291835}
   - component: {fileID: 2736924993745165193}
   - component: {fileID: 5468807504039765083}
   - component: {fileID: 573269511615368643}
   - component: {fileID: 3431458272678962379}
   - component: {fileID: 3357774246840646053}
+  - component: {fileID: 7593299362153503858}
   m_Layer: 0
   m_Name: BossGrunts
   m_TagString: Destroyable
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: -856204174, guid: 06c41649c24b0fa4aa23f8fa8eb41846, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -93,21 +93,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6864902027868291835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3145255461508253405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bec5fde27db0f34c9c34810e7f1fb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedX: 0.05
-  speedY: 0.05
-  deathForce: 50
 --- !u!114 &2736924993745165193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,7 +108,8 @@ MonoBehaviour:
   drops:
   - {fileID: 5913056406138294489, guid: fb95c8bd99ddea94b8cac7ceacb4b14f, type: 3}
   - {fileID: 5913056406138294489, guid: b0d1b30215cb6b54185ba55659d98ee3, type: 3}
-  health: 1
+  - {fileID: 5913056406138294489, guid: 97a7584db87e8194d805a7a736d085de, type: 3}
+  health: 8
   dropChanceIncreaseAmount: 1
   isHelicopter: 0
   pickUpDropped: 0
@@ -229,6 +215,26 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7593299362153503858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3145255461508253405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c66957283b904845acb0e2a340f6ed1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.05
+  upperBound: 2.1
+  lowerBound: -3.1
+  nextPosition: {x: 0, y: 0, z: 0}
+  phase: 1
+  deathForce: 2
+  death: 0
+  spawnsToDisable: []
 --- !u!1 &3398823522544613036
 GameObject:
   m_ObjectHideFlags: 0

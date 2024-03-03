@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnScript_Basic : MonoBehaviour
+public class SpawnScript_Basic : MonoBehaviour, ISpawns
 {
     //Spawn rate in seconds
     public int spawnRate = 20;
@@ -17,5 +17,10 @@ public class SpawnScript_Basic : MonoBehaviour
         yield return new WaitForSeconds(spawnRate);
         Instantiate(objectToSpawn, this.transform.position, Quaternion.identity);
         StartCoroutine(Spawn());
+    }
+
+    public void StopCoroutine()
+    {
+        this.StopAllCoroutines();
     }
 }

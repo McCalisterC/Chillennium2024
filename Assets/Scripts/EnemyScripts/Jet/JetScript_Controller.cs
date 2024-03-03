@@ -26,7 +26,7 @@ public class JetScript_Controller : MonoBehaviour
         }
         else if(collision.tag == "Player")
         {
-            collision.gameObject.GetComponent<PlayerScripts_Stats>().Die();
+            collision.gameObject.GetComponent<PlayerScripts_Stats>().Die(true);
             //Explode
         }
     }

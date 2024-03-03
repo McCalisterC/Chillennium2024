@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnScript_Jet : MonoBehaviour
+public class SpawnScript_Jet : MonoBehaviour, ISpawns
 {
     public GameObject[] lanes;
     //Spawn rate in seconds
@@ -20,5 +20,10 @@ public class SpawnScript_Jet : MonoBehaviour
         int laneUsed = Random.Range(0, lanes.Length);
         lanes[laneUsed].gameObject.SetActive(true);
         StartCoroutine(SpawnJet());
+    }
+
+    public void StopCoroutine()
+    {
+        this.StopAllCoroutines();
     }
 }

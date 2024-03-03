@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 13
   m_Sprite: {fileID: -1915766667, guid: 3fbbeb8149e42c845ab5f50210d3d9b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -108,8 +108,9 @@ MonoBehaviour:
   drops:
   - {fileID: 5913056406138294489, guid: fb95c8bd99ddea94b8cac7ceacb4b14f, type: 3}
   - {fileID: 5913056406138294489, guid: b0d1b30215cb6b54185ba55659d98ee3, type: 3}
+  - {fileID: 5913056406138294489, guid: 97a7584db87e8194d805a7a736d085de, type: 3}
   health: 8
-  dropChance: 100
+  dropChanceIncreaseAmount: 1
   isHelicopter: 1
   pickUpDropped: 0
 --- !u!70 &5468807504039765083

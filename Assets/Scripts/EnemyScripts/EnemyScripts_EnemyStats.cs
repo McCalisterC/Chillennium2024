@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class EnemyScripts_EnemyStats : MonoBehaviour
 {
@@ -36,12 +37,13 @@ public class EnemyScripts_EnemyStats : MonoBehaviour
 
     public void Death()
     {
+        GameObject.FindGameObjectWithTag("Score").GetComponent<MiscScript_ScoreManager>().killScore += 500;
         if (willDropPickup)
         {
             Instantiate(drops[pickUpDropped], this.transform.position, Quaternion.identity);
             willDropPickup = false;
         }
-        if(this.GetComponent<Animator>()  != null)
+        if(this.GetComponent<Animator>()  != null && this.GetComponent<HelicopterScript_Controller>() == null)
             this.GetComponent<Animator>().SetTrigger("Die");
         else
         {

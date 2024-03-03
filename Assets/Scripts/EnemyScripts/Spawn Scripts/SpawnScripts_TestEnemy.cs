@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnScripts_TestEnemy : MonoBehaviour
+public class SpawnScripts_TestEnemy : MonoBehaviour, ISpawns
 {
     public float spawnX = 6f;
     public float spawnY = 6f;
@@ -25,5 +25,10 @@ public class SpawnScripts_TestEnemy : MonoBehaviour
         Vector3 spawnPosition = new Vector3(randSpawnX, randSpawnY, 0);
         Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
         StartCoroutine(SpawnEnemy());
+    }
+
+    public void StopCoroutine()
+    {
+        this.StopAllCoroutines();
     }
 }

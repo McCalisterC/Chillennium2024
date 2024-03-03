@@ -33,7 +33,7 @@ public class ProjectileScript_SniperBullet : MonoBehaviour
 
         else if(collision.tag == "Player" && shotByEnemy)
         {
-            collision.GetComponent<PlayerScripts_Stats>().Die();
+            collision.GetComponent<PlayerScripts_Stats>().Die(false);
         }
     }
 

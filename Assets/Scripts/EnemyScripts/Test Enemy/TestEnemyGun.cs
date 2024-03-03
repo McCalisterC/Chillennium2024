@@ -30,4 +30,9 @@ public class TestEnemyGun : MonoBehaviour
         bulletSpawnTransform = bulletSpawnObject.transform;
         StartCoroutine(Shoot());
     }
+
+    public void StopShoot()
+    {
+        this.StopAllCoroutines();
+    }
 }
